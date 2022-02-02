@@ -62,7 +62,7 @@ client.on('message', (message) => {
 		
 	}
 
-    if(message.content.toLowerCase().indexOf("gay") > -1 && message.author.username != "FCBOT") {
+    if(message.content.toLowerCase().indexOf("max") > -1 && message.author.username != "FCBOT") {
         if(playerScores[message.author.username] == null)
         	playerScores[message.author.username] = 1;
         else
